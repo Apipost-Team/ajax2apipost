@@ -24,7 +24,9 @@ let json = ajaxPara2Apipost({
    headers: { "X-Test-Header": "test-value", Accept: "application/json; charset=utf-8" },
   contentType: "application/json"
 })
+
 console.log(json)
+
 /*
 {
     "target_id": "ad14d85c-6f22-4ba6-a9c8-3283bd05acdd",
