@@ -1,6 +1,6 @@
 const _ = require('lodash'),
     apipostTools = require('apipost-tools'),
-    uuid = require('uuid')；
+    uuid = require('uuid');
     // apipostRequest = require('apipost-send');
 
 function ajaxPara2Apipost(request) {

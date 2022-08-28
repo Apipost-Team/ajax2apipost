@@ -18,11 +18,11 @@ $ npm install ajax2apipost
 const ajaxPara2Apipost = require('ajax2apipost');
 
 let json = ajaxPara2Apipost({
-  url: "https://echo.apipost.cn/get.php",
-  data: JSON.stringify({ "id": { title: "大三大四的" } }),
-  type: "POST",
-   headers: { "X-Test-Header": "test-value", Accept: "application/json; charset=utf-8" },
-  contentType: "application/json"
+    url: "https://echo.apipost.cn/get.php",
+    data: JSON.stringify({ "id": { title: "大三大四的" } }),
+    type: "POST",
+    headers: { "X-Test-Header": "test-value", Accept: "application/json; charset=utf-8" },
+    contentType: "application/json"
 })
 
 console.log(json)
