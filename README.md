@@ -4,28 +4,35 @@
   </a>
 </p>
 
-# 🚀 ajax2apipost
+# 🚀 ajax-apipost
+
 Convert common jquery Ajax parameter formats to Apipost standard parameter formats.
+
 ## Install
 
 ```
-$ npm install ajax2apipost
+$ npm install ajax-apipost
 ```
 
-##  Usage
+## Usage
+
 ### render
+
 ```javascript
-const ajaxPara2Apipost = require('ajax2apipost');
+const ajaxPara2Apipost = require("ajax-apipost");
 
 let json = ajaxPara2Apipost({
-    url: "https://echo.apipost.cn/get.php",
-    data: JSON.stringify({ "id": { title: "大三大四的" } }),
-    type: "POST",
-    headers: { "X-Test-Header": "test-value", Accept: "application/json; charset=utf-8" },
-    contentType: "application/json"
-})
+  url: "https://echo.apipost.cn/get.php",
+  data: JSON.stringify({ id: { title: "大三大四的" } }),
+  type: "POST",
+  headers: {
+    "X-Test-Header": "test-value",
+    Accept: "application/json; charset=utf-8",
+  },
+  contentType: "application/json",
+});
 
-console.log(json)
+console.log(json);
 
 /*
 {
