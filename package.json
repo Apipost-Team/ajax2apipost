@@ -1,6 +1,6 @@
 {
   "name": "ajax2apipost",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "Convert common jquery Ajax parameter formats to Apipost standard parameter formats.",
   "main": "index.js",
   "scripts": {
@@ -24,8 +24,10 @@
   },
   "homepage": "https://github.com/Apipost-Team/ajax2apipost#readme",
   "dependencies": {
-    "apipost-tools": "^0.0.20",
-    "form-data": "^4.0.0",
+    "form-data": "^4.0.0"
+  },
+  "peerDependencies": {
+    "apipost-tools": ">=0.0.29",
     "lodash": "^4.17.21",
     "uuid": "^8.3.2"
   }
